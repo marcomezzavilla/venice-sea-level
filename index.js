@@ -11,6 +11,7 @@ async function handler(_req) {
     status: resp.status,
     headers: {
       "content-type": "application/json",
+      "access-control-allow-origin": "*",
     },
   });
 }
