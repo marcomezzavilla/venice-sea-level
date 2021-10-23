@@ -16,5 +16,4 @@ async function handler(_req) {
   });
 }
 
-console.log("Listening on http://localhost:8080");
 await listenAndServe(":8080", handler);
